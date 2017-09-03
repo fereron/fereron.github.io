@@ -33,9 +33,6 @@
     float: left;
     margin: 0 20px 0 -10px; }
   .main .line {
-    padding: 2px 0;
-    background-color: yellow; }
-  .main .line2 {
     height: 5px;
     width: 70px;
     background-color: #3a3b4d;
