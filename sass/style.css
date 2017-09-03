@@ -1,0 +1,65 @@
+.main {
+  height: 768px;
+  background-color: #16120f;
+  color: #fff;
+  font-family: "Work Sans", "sans-serif";
+  font-weight: bold;
+  font-size: 16px; }
+  .main .navigation_list {
+    list-style: none;
+    margin: 20px 20px 0 0; }
+    .main .navigation_list li {
+      display: inline-block;
+      padding: 5px 0; }
+      .main .navigation_list li a {
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none; }
+        .main .navigation_list li a:hover {
+          text-decoration: none;
+          color: #00bede; }
+  .main h1 {
+    font-family: "Montserrat", "sans-serif";
+    font-weight: 900;
+    font-style: italic;
+    font-size: 150px;
+    float: left;
+    margin: 100px 0 0 60px; }
+  .main h3 {
+    font-family: "Montserrat", "sans-serif";
+    font-weight: 500;
+    font-style: italic;
+    font-size: 60px;
+    float: left;
+    margin: 0 20px 0 -10px; }
+  .main .line {
+    padding: 2px 0;
+    background-color: yellow; }
+  .main .line2 {
+    height: 5px;
+    width: 70px;
+    background-color: #3a3b4d;
+    float: left;
+    margin: 20px 300px 0 -10px; }
+  .main p {
+    font-weight: 400;
+    font-size: 12px;
+    float: left;
+    margin: 30px 80px 0 -10px; }
+  .main button {
+    font-family: "Open Sans", "sans-serif";
+    float: left;
+    padding: 10px 30px;
+    background-color: #00bede;
+    border: none;
+    border-radius: 25px;
+    font-size: 24px;
+    margin: 60px 0 0 -10px; }
+    .main button:hover {
+      background-color: #00a8c5; }
+  .main .image_main {
+    float: left; }
+    .main .image_main img {
+      height: 700px; }
+
+/*# sourceMappingURL=style.css.map */
