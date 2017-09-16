@@ -1,0 +1,81 @@
+section.contact_us {
+  //$input-color: lighten(#348AC7, 10%);
+  //$input-color: darken(#01b9d3, 40%);
+  //$input-color: darken(#3960a2, 5%);
+  //$input-color: rgba(57, 96, 162, 0.7);
+  //$input-color: rgba(42, 77, 136, 0.7);
+  $input-color: rgba(29, 26, 68, .7);
+
+  height: 670px;
+  background: url("../images/contact-us_bg.jpg");
+
+  font-family: "Montserrat", "sans-serif";
+  color: #fff;
+
+  h2 {
+    margin: 50px 0 30px 0;
+    font-size: 54px;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 13px;
+    font-weight: 200;
+    margin-bottom: 70px;
+  }
+
+  .contacts {
+    h4 {
+      font-size: 20px;
+    }
+    p {
+      margin-bottom: 50px;
+      font-weight: 400;
+    }
+  }
+
+  .contact_form {
+
+    input {
+      width: 100%;
+      border: none;
+      background-color: $input-color;
+      outline: none;
+      border-radius: 2px;
+      padding: 8px 15px;
+      color: #fff;
+      &::-webkit-input-placeholder {
+        color: darken(#fff, 30%);
+      }
+      &::-moz-placeholder {
+        color: darken(#fff, 30%);
+      }
+    }
+
+    .message {
+      margin-top: 20px;
+
+      textarea {
+        width: 100%;
+        background-color: $input-color;
+        outline: none;
+        border: none;
+        resize:none;
+        padding: 8px 15px;
+
+        &::-webkit-input-placeholder {
+          color: darken(#fff, 30%);
+        }
+        &::-moz-placeholder {
+          color: darken(#fff, 30%);
+        }
+      }
+
+      input[type=submit] {
+        margin: 0 15px;
+      }
+    }
+
+  }
+
+}

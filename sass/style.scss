@@ -1,6 +1,7 @@
 $color: #00bede;
 $main-bg: #16120f;
 $about-bg: #191828;
+$shadow-color: #e1dddd;
 
 
 
@@ -10,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.main {
+section#main {
   height: 760px;
   background-color: $main-bg;
 
@@ -21,7 +22,8 @@ h1, h2, h3, h4, h5, h6 {
 
   .navigation_list {
     list-style: none;
-    margin: 20px 20px 0 0;
+    margin: 25px 15px 0 0;
+    font-family: "Montserrat", "Open Sans";
 
     li {
       display: inline-block;
@@ -29,8 +31,9 @@ h1, h2, h3, h4, h5, h6 {
 
       a {
         color: #fff;
-        padding: 10px 20px;
+        padding: 10px 15px;
         text-decoration: none;
+        font-size: 18px;
 
         &:hover {
           text-decoration: none;
@@ -40,64 +43,69 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 
-  h1 {
-    font-family: "Montserrat", "sans-serif";
-    font-weight: 900;
-    font-style: italic;
-    font-size: 150px;
-    float: left;
-    margin: 100px 0 0 60px;
-  }
+  .main {
+    margin-top: -10px;
 
-  h2 {
-    font-family: "Montserrat", "sans-serif";
-    font-weight: 500;
-    font-style: italic;
-    font-size: 60px;
-    float: left;
-    margin: 0 20px 0 -10px;
-  }
-
-  .line {
-    height: 5px;
-    width: 70px;
-    background-color: #3a3b4d;
-    float: left;
-    margin: 20px 300px 0 -10px;
-  }
-
-  p {
-    font-weight: 400;
-    font-size: 12px;
-    float: left;
-    margin: 30px 80px 0 -10px;
-  }
-
-  button {
-    font-family: "Open Sans", "sans-serif";
-    float: left;
-    padding: 12px 35px;
-    background-color: $color;
-    border: none;
-    border-radius: 27px;
-    font-size: 24px;
-    margin: 60px 0 0 -10px;
-
-    &:hover {
-      background-color: darken($color, 10%);
+    h1 {
+      font-family: "Montserrat", "sans-serif";
+      font-weight: 900;
+      font-style: italic;
+      font-size: 150px;
+      float: left;
+      margin: 100px 0 0 60px;
     }
-  }
 
-  .image_main {
-    float: left;
-    img {
-      height: 700px;
+    h2 {
+      font-family: "Montserrat", "sans-serif";
+      font-weight: 500;
+      font-style: italic;
+      font-size: 60px;
+      float: left;
+      margin: 0 20px 0 -10px;
+    }
+
+    .line {
+      height: 5px;
+      width: 70px;
+      background-color: #3a3b4d;
+      float: left;
+      margin: 20px 300px 0 -10px;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 12px;
+      float: left;
+      margin: 30px 80px 0 -10px;
+    }
+
+    button {
+      font-family: "Open Sans", "sans-serif";
+      float: left;
+      padding: 12px 35px;
+      background-color: $color;
+      border: none;
+      border-radius: 27px;
+      font-size: 24px;
+      margin: 60px 0 0 -10px;
+
+      &:hover {
+        background-color: darken($color, 10%);
+      }
+    }
+
+    .image_main {
+      float: left;
+      img {
+        height: 700px;
+      }
     }
   }
 }
 
 @import "about-us";
 @import "our_process";
+@import "contact_us";
 
 .gradient {
   width: 100%;
