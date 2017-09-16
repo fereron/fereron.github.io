@@ -1,0 +1,32 @@
+footer {
+  height: 70px;
+  font-family: "Montserrat", "Open Sans";
+  color: #fff;
+  background-color: $about-bg;
+
+  .row {
+    margin-top: 20px;
+
+    .footer_agency {
+      font-size: 20px;
+      font-weight: 600;
+      span {
+        color: $color;
+      }
+    }
+  }
+
+
+  ul {
+    margin-top: 5px;
+    li {
+      display: inline-block;
+      a {
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        padding: 0 10px 0 10px;
+      }
+    }
+  }
+}

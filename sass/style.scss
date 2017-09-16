@@ -3,11 +3,21 @@ $main-bg: #16120f;
 $about-bg: #191828;
 $shadow-color: #e1dddd;
 
-
-
 h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+    color: $color;
+  }
 }
 
 
@@ -21,7 +31,6 @@ section#main {
   font-size: 16px;
 
   .navigation_list {
-    list-style: none;
     margin: 25px 15px 0 0;
     font-family: "Montserrat", "Open Sans";
 
@@ -30,15 +39,9 @@ section#main {
       padding: 5px 0;
 
       a {
-        color: #fff;
         padding: 10px 15px;
-        text-decoration: none;
         font-size: 18px;
 
-        &:hover {
-          text-decoration: none;
-          color: $color;
-        }
       }
     }
   }
@@ -106,6 +109,7 @@ section#main {
 @import "about-us";
 @import "our_process";
 @import "contact_us";
+@import "footer";
 
 .gradient {
   width: 100%;

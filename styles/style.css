@@ -2,6 +2,16 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0; }
 
+ul {
+  list-style: none; }
+
+a {
+  color: #fff;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none;
+    color: #00bede; }
+
 section#main {
   height: 760px;
   background-color: #16120f;
@@ -10,20 +20,14 @@ section#main {
   font-weight: bold;
   font-size: 16px; }
   section#main .navigation_list {
-    list-style: none;
     margin: 25px 15px 0 0;
     font-family: "Montserrat", "Open Sans"; }
     section#main .navigation_list li {
       display: inline-block;
       padding: 5px 0; }
       section#main .navigation_list li a {
-        color: #fff;
         padding: 10px 15px;
-        text-decoration: none;
         font-size: 18px; }
-        section#main .navigation_list li a:hover {
-          text-decoration: none;
-          color: #00bede; }
   section#main .main {
     margin-top: -10px; }
     section#main .main h1 {
@@ -236,11 +240,39 @@ section.contact_us {
       outline: none;
       border: none;
       resize: none;
-      padding: 8px 15px; }
+      padding: 8px 15px;
+      border-radius: 2px; }
       section.contact_us .contact_form .message textarea::-webkit-input-placeholder {
-        color: #b3b3b3; }  section.contact_us .contact_form .message textarea::-moz-placeholder {
-        color: #b3b3b3; }  section.contact_us .contact_form .message input[type=submit] {
-      margin: 0 15px; }
+        color: #b3b3b3; }
+      section.contact_us .contact_form .message textarea::-moz-placeholder {
+        color: #b3b3b3; }
+  section.contact_us .contact_form input[type="submit"] {
+    width: 817.5px;
+    margin: 20px 15px 0 15px;
+    background-color: #00bede;
+    border-radius: 2px; }
+
+footer {
+  height: 70px;
+  font-family: "Montserrat", "Open Sans";
+  color: #fff;
+  background-color: #191828; }
+  footer .row {
+    margin-top: 20px; }
+    footer .row .footer_agency {
+      font-size: 20px;
+      font-weight: 600; }
+      footer .row .footer_agency span {
+        color: #00bede; }
+  footer ul {
+    margin-top: 5px; }
+    footer ul li {
+      display: inline-block; }
+      footer ul li a {
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        padding: 0 10px 0 10px; }
 
 .gradient {
   width: 100%;
