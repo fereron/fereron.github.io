@@ -238,10 +238,8 @@ section.contact_us {
       resize: none;
       padding: 8px 15px; }
       section.contact_us .contact_form .message textarea::-webkit-input-placeholder {
-        color: #b3b3b3; }
-      section.contact_us .contact_form .message textarea::-moz-placeholder {
-        color: #b3b3b3; }
-    section.contact_us .contact_form .message input[type=submit] {
+        color: #b3b3b3; }  section.contact_us .contact_form .message textarea::-moz-placeholder {
+        color: #b3b3b3; }  section.contact_us .contact_form .message input[type=submit] {
       margin: 0 15px; }
 
 .gradient {
