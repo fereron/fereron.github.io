@@ -1,3 +1,7 @@
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0; }
+
 .main {
   height: 760px;
   background-color: #16120f;
@@ -25,7 +29,7 @@
     font-size: 150px;
     float: left;
     margin: 100px 0 0 60px; }
-  .main h3 {
+  .main h2 {
     font-family: "Montserrat", "sans-serif";
     font-weight: 500;
     font-style: italic;
@@ -46,10 +50,10 @@
   .main button {
     font-family: "Open Sans", "sans-serif";
     float: left;
-    padding: 10px 30px;
+    padding: 12px 35px;
     background-color: #00bede;
     border: none;
-    border-radius: 25px;
+    border-radius: 27px;
     font-size: 24px;
     margin: 60px 0 0 -10px; }
     .main button:hover {
@@ -63,8 +67,132 @@ section.about_us {
   background-color: #191828;
   color: #fff;
   font-family: "Montserrat", "sans-serif"; }
-  section.about_us .image img {
-    width: 100%; }
+  section.about_us h2 {
+    font-size: 54px;
+    margin: -10px 0 60px 0; }
+  section.about_us p {
+    font-size: 13px; }
+  section.about_us .description {
+    margin-bottom: 45px; }
+    section.about_us .description .image img {
+      width: 100%; }
+    section.about_us .description h3 {
+      font-weight: 100;
+      font-size: 46px;
+      margin-bottom: 10px; }
+    section.about_us .description p {
+      width: 350px;
+      color: #737278;
+      font-size: 12px; }
+  section.about_us .services {
+    margin-bottom: 70px; }
+    section.about_us .services .col-md-4 {
+      padding: 0; }
+    section.about_us .services img {
+      width: 100%;
+      height: 253px;
+      position: relative; }
+    section.about_us .services .services_description {
+      position: absolute;
+      width: 100%;
+      top: 55px;
+      text-align: center; }
+      section.about_us .services .services_description h4 {
+        margin: 8px 0 5px 0;
+        font-weight: 600;
+        font-size: 24px; }
+      section.about_us .services .services_description p {
+        font-size: 12px; }
+  section.about_us .skills h2 {
+    margin: 0; }
+  section.about_us .skills p {
+    font-size: 12px; }
+  section.about_us .circles {
+    height: 200px;
+    text-align: center;
+    margin: 60px 0 70px 0; }
+    section.about_us .circles .inside {
+      background: #191828;
+      width: 149px;
+      height: 149px;
+      border-radius: 1000px; }
+    section.about_us .circles .circle {
+      height: 151px;
+      width: 151px;
+      margin: 0 60px 25px 60px;
+      border-radius: 1000px;
+      background: -webkit-linear-gradient(left top, crimson 0%, #f90 100%); }
+      section.about_us .circles .circle p {
+        margin: 0;
+        line-height: 150px;
+        font-size: 30px; }
+    section.about_us .circles .circle2 {
+      background: -webkit-linear-gradient(left top, #7474BF 0%, #348AC7 100%); }
+      section.about_us .circles .circle2 .inside {
+        height: 149px;
+        width: 149px;
+        float: right;
+        margin: 2px 0 0 0; }
+    section.about_us .circles .circle3 {
+      background: -webkit-linear-gradient(left top, #16A085 0%, #F4D03F 100%); }
+      section.about_us .circles .circle3 .inside {
+        float: right; }
+    section.about_us .circles .circle4 {
+      background: -webkit-linear-gradient(left top, #e52d27 0%, #b31217 100%); }
+      section.about_us .circles .circle4 .inside {
+        float: left;
+        margin: 2px 2px 0 0; }
+    section.about_us .circles h4 {
+      width: 270px; }
+
+section#our_process {
+  height: 650px;
+  background: url("../images/our_process.jpg");
+  font-family: "Montserrat", "sans-serif";
+  color: #191828; }
+  section#our_process h2 {
+    font-size: 56px;
+    margin: 60px 0 40px 0;
+    font-weight: bold; }
+  section#our_process h3 {
+    font-weight: 600;
+    margin-bottom: 140px; }
+  section#our_process .line {
+    width: 200px;
+    height: 3px;
+    background-color: #191828;
+    margin: 0 auto 60px auto; }
+  section#our_process .process h4 {
+    font-size: 23px;
+    position: relative;
+    font-weight: 600;
+    z-index: 2; }
+    section#our_process .process h4.color {
+      color: #2cb8b7; }
+  section#our_process .process .numbers {
+    color: #e1dddd;
+    font-size: 92px;
+    font-weight: 700;
+    letter-spacing: 15px;
+    position: absolute;
+    top: -58px;
+    left: 7px;
+    z-index: 1; }
+  section#our_process .process .border {
+    background-color: #191828;
+    height: 2px;
+    position: absolute;
+    left: 15px;
+    top: 50px;
+    width: 45%;
+    z-index: 2; }
+    section#our_process .process .border.color {
+      background-color: #2cb8b7; }
+  section#our_process .process .description {
+    margin-top: 60px;
+    width: 80%;
+    font-weight: 600;
+    font-size: 12px; }
 
 .gradient {
   width: 100%;

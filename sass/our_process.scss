@@ -1,0 +1,75 @@
+section#our_process {
+  $text-color: #191828;
+  $shadow-color: #e1dddd;
+
+  height: 650px;
+  background: url("../images/our_process.jpg");
+
+  font-family: "Montserrat", "sans-serif";
+  color: $text-color;
+
+  h2 {
+    font-size: 56px;
+    margin: 60px 0 40px 0;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-weight: 600;
+    margin-bottom: 140px;
+  }
+
+  .line {
+    width: 200px;
+    height: 3px;
+    background-color: $text-color;
+    margin: 0 auto 60px auto;
+  }
+
+  .process {
+    h4 {
+      font-size: 23px;
+      position: relative;
+      font-weight: 600;
+      z-index: 2;
+
+      &.color {
+        color: #2cb8b7;
+      }
+    }
+
+    .numbers {
+      color: $shadow-color;
+      font-size: 92px;
+      font-weight: 700;
+      letter-spacing: 15px;
+      position: absolute;
+      top: -58px;
+      left: 7px;
+      z-index: 1;
+    }
+
+    .border {
+      background-color: $text-color;
+      height: 2px;
+      position: absolute;
+      left: 15px;
+      top: 50px;
+      width: 45%;
+      z-index: 2;
+
+      &.color {
+        background-color: #2cb8b7;
+      }
+    }
+
+    .description {
+      margin-top: 60px;
+      width: 80%;
+      font-weight: 600;
+      font-size: 12px;
+
+    }
+  }
+
+}

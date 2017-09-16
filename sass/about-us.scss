@@ -3,7 +3,133 @@ section.about_us {
   color: #fff;
   font-family: "Montserrat", "sans-serif";
 
-  .image img {
-    width: 100%;
+  h2 {
+    font-size: 54px;
+    margin: -10px 0 60px 0;
   }
+
+  p {
+    font-size: 13px;
+  }
+
+  .description {
+    margin-bottom: 45px;
+
+    .image img {
+      width: 100%;
+    }
+
+    h3 {
+      font-weight: 100;
+      font-size: 46px;
+      margin-bottom:10px;
+    }
+
+    p {
+      width: 350px;
+      color: #737278;
+      font-size: 12px;
+    }
+  }
+
+  .services {
+    margin-bottom: 70px;
+    //width: 1279px;
+    //margin: -71px;
+    .col-md-4 {
+      padding: 0;
+    }
+
+    img {
+      width: 100%;
+      height: 253px;
+      position: relative;
+    }
+
+    .services_description {
+      position: absolute;
+      width: 100%;
+      top: 55px;
+      text-align: center;
+
+      h4 {
+        margin: 8px 0 5px 0;
+        font-weight: 600;
+        font-size: 24px;
+      }
+
+      p {
+        font-size: 12px;
+      }
+    }
+
+  }
+
+  .skills {
+    h2 {
+      margin: 0;
+    }
+    p {
+      font-size: 12px;
+    }
+
+  }
+
+  .circles {
+    height: 200px;
+    text-align: center;
+    margin: 60px 0 70px 0;
+
+    .inside {
+      background: $about-bg;
+      width: 149px;
+      height: 149px;
+      border-radius: 1000px;
+    }
+
+    .circle {
+      height: 151px;
+      width: 151px;
+      margin: 0 60px 25px 60px;
+      border-radius: 1000px;
+      background: -webkit-linear-gradient(left top, crimson 0%, #f90 100%);
+
+      p {
+        margin: 0;
+        line-height: 150px;
+        font-size: 30px;
+      }
+    }
+
+    .circle2 {
+      background: -webkit-linear-gradient(left top, #7474BF  0%, #348AC7 100%);
+      .inside {
+        height: 149px;
+        width: 149px;
+        float: right;
+        margin: 2px 0 0 0;
+      }
+    }
+
+    .circle3 {
+      background: -webkit-linear-gradient(left top, #16A085  0%, #F4D03F 100%);
+      .inside {
+        float: right;
+      }
+    }
+
+    .circle4 {
+      background: -webkit-linear-gradient(left top, #e52d27 0%, #b31217 100%);
+      .inside {
+        float: left;
+        margin: 2px 2px 0 0;
+      }
+    }
+
+    h4 {
+      width: 270px;
+    }
+
+  }
+
 }

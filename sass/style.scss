@@ -3,6 +3,13 @@ $main-bg: #16120f;
 $about-bg: #191828;
 
 
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+
+
 .main {
   height: 760px;
   background-color: $main-bg;
@@ -39,22 +46,16 @@ $about-bg: #191828;
     font-style: italic;
     font-size: 150px;
     float: left;
-
     margin: 100px 0 0 60px;
-
   }
 
-  h3 {
+  h2 {
     font-family: "Montserrat", "sans-serif";
     font-weight: 500;
     font-style: italic;
     font-size: 60px;
-
     float: left;
-
     margin: 0 20px 0 -10px;
-    //margin: 0;
-
   }
 
   .line {
@@ -66,11 +67,8 @@ $about-bg: #191828;
   }
 
   p {
-    //font-family: "Montserrat", "sans-serif";
     font-weight: 400;
-    //font-style: italic;
     font-size: 12px;
-
     float: left;
     margin: 30px 80px 0 -10px;
   }
@@ -78,10 +76,10 @@ $about-bg: #191828;
   button {
     font-family: "Open Sans", "sans-serif";
     float: left;
-    padding: 10px 30px;
+    padding: 12px 35px;
     background-color: $color;
     border: none;
-    border-radius: 25px;
+    border-radius: 27px;
     font-size: 24px;
     margin: 60px 0 0 -10px;
 
@@ -89,8 +87,6 @@ $about-bg: #191828;
       background-color: darken($color, 10%);
     }
   }
-
-
 
   .image_main {
     float: left;
@@ -101,6 +97,7 @@ $about-bg: #191828;
 }
 
 @import "about-us";
+@import "our_process";
 
 .gradient {
   width: 100%;

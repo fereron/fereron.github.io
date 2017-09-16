@@ -1,77 +1,201 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>BOSS Creative Agency</title>
 
+    <link rel="shortcut icon" href="favicon.ico">
+
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/font-awesome.min.css">
     <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
-<!--<h1 class="text-center">Hello World!</h1>-->
-<section class="main">
-    <div class="container">
-        <div class="row">
-            <nav class="navigation_list text-right">
-                <ul>
-                    <li><a href="#">ABOUT US</a></li>
-                    <li><a href="#">SERVICES</a></li>
-                    <li><a href="#">OUR SKILLS</a></li>
-                    <li><a href="#">CONTACT US</a></li>
-                </ul>
-            </nav>
-        </div>
 
-        <div class="row">
-            <div class="image_main">
-                <img src="images/tiger.jpg" alt="tiger">
-            </div>
+    <!-- sass --watch sass/style.scss:styles/style.css -->
 
-            <h1>BOSS</h1>
-            <h3>CREATIVE AGENCY</h3>
+ </head>
+ <body>
+ <section class="main">
+     <div class="container">
+         <div class="row">
+             <nav class="navigation_list text-right">
+                 <ul>
+                     <li><a href="#">ABOUT US</a></li>
+                     <li><a href="#">SERVICES</a></li>
+                     <li><a href="#">OUR SKILLS</a></li>
+                     <li><a href="#">CONTACT US</a></li>
+                 </ul>
+             </nav>
+         </div>
 
-            <div class="line"></div>
+         <div class="row">
+             <div class="image_main">
+                 <img src="images/tiger.jpg" alt="tiger">
+             </div>
 
-            <p>WE HELP BRANDS STAND OUT FROM THE CROWD AND SUCCEED <br>
-                WITH OUR INNOVATIVE IDEAS AND TOP-NOTCH SERVICES.</p>
+             <h1>BOSS</h1>
+             <h2>CREATIVE AGENCY</h2>
 
-            <button>Заказать сайт</button>
-        </div>
-    </div>
-</section>
+             <div class="line"></div>
 
-<div class="gradient"></div>
+             <p>WE HELP BRANDS STAND OUT FROM THE CROWD AND SUCCEED <br>
+                 WITH OUR INNOVATIVE IDEAS AND TOP-NOTCH SERVICES.</p>
 
-<section class="about_us">
-    <div class="container">
-        <div class="row">
-            <h2 class="text-center">ABOUT US</h2>
-            <div class="row">
-                <div class="col-md-5 col-md-offset-2">
-                    <h3>
-                        WE ARE <br>
-                        CREATIVE AGENCY
-                    </h3>
-                    <p>
-                        it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                    </p>
-                </div>
-                <div class="col-md-4 col-md-offset-1 image">
-                    <img src="images/about-us.jpg" alt="Our team">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <img src="images/img-1.png" alt="">
-            </div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
+             <button>Заказать сайт</button>
+         </div>
+     </div>
+ </section>
 
-            </div>
-        </div>
-    </div>
+ <div class="gradient"></div>
 
-</section>
+ <section class="about_us">
+     <div class="container">
+             <h2 class="text-center">ABOUT US</h2>
+             <div class="row description">
+                 <div class="col-md-5 col-md-offset-1">
+                     <h3>
+                         WE ARE <br>
+                         CREATIVE AGENCY
+                     </h3>
+                     <p>
+                         it is a long established fact that a reader will be distracted by the readable content of a page
+                         when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                         distribution of letters, as opposed to using 'Content here, content here', making it look like
+                         readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as
+                         their default model text, and a search for 'lorem ipsum' will uncover many web sites still in
+                         their infancy.
+                     </p>
+                 </div>
+                 <div class="col-md-5 col-md-offset-1 image">
+                     <img src="images/about-us.jpg" alt="Our team">
+                 </div>
+             </div>
+             <div class="row services">
+                 <div class="col-md-4">
+                     <img src="images/img-1.jpg" alt="">
+                     <div class="services_description">
+                         <i class="fa fa-desktop fa-5x" aria-hidden="true"></i>
+                         <h4>CREATIVE DESIGNS</h4>
+                         <p>
+                             Duis sed odio sit amet nibh vulputate <br>
+                             cursus a sit amet mauris. Morbi accumsan
+                         </p>
+                     </div>
+                 </div>
+                 <div class="col-md-4">
+                     <img src="images/img-2.jpg" alt="">
+                     <div class="services_description">
+                         <i class="fa fa-keyboard-o fa-5x" aria-hidden="true"></i>
+                         <h4>CODING & UX/UI</h4>
+                         <p>
+                             Duis sed odio sit amet nibh vulputate <br>
+                             cursus a sit amet mauris. Morbi accumsan
+                         </p>
+                     </div>
+                 </div>
+                 <div class="col-md-4">
+                     <img src="images/img-3.jpg" alt="">
+                     <div class="services_description">
+                         <i class="fa fa-line-chart fa-5x" aria-hidden="true"></i>
+                         <h4>STRATEGY & CONSULTING</h4>
+                         <p>Duis sed odio sit amet nibh vulputate <br>
+                             cursus a sit amet mauris. Morbi accumsan
+                         </p>
+                     </div>
+                 </div>
+             </div>
 
-</body>
-</html>
+             <div class="row text-center skills">
+                 <h2>OUR SKILLS</h2>
+                 <p>
+                     LOREM IPSUM DOLOR SIT AMET. CONSECTETUR <br>
+                     ADIPISICING ELIT. SED DO EIUSMOD TEMPOR
+                 </p>
+             </div>
+
+             <div class="row circles">
+                 <div class="col-md-3">
+                     <div class="circle">
+                         <div class="inside">
+                             <p>10%</p>
+                         </div>
+                     </div>
+                     <h4>USABILITY & DESIGN</h4>
+                 </div>
+                 <div class="col-md-3">
+                     <div class="circle circle2">
+                         <div class="inside">
+                             <p>20%</p>
+                         </div>
+                     </div>
+                     <h4>PROGRAMMING</h4>
+                 </div>
+                 <div class="col-md-3">
+                     <div class="circle circle3">
+                         <div class="inside">
+                             <p>30%</p>
+                         </div>
+                     </div>
+                     <h4>TESTING</h4>
+                 </div>
+                 <div class="col-md-3">
+                     <div class="circle circle4">
+                         <div class="inside">
+                             <p>40%</p>
+                         </div>
+                     </div>
+                     <h4>DATABASES</h4>
+                 </div>
+             </div>
+         </div>
+
+ </section>
+
+ <section id="our_process">
+     <div class="container">
+         <h2 class="text-center">OUR PROCESS</h2>
+         <div class="line"></div>
+         <h3 class="text-center">
+             LOREM IPSUM DOLOR SIT AMET, CONSECTETUR <br>
+             ADIPISICING ELIT. SED DO EIUSMOD TEMPOR
+         </h3>
+         <div class="row process">
+             <div class="col-md-4">
+                 <p class="numbers">01</p>
+                 <h4>CLIENT INTERRACTION</h4>
+                 <div class="border"></div>
+                 <p class="description">
+                     Lorem ipsum dolor sit amet consectetur
+                     adipisicing elit,set do eiusmod tempor
+                     incididunt ut labore et dolore magna aliqua. Ut
+                     enim ad minim veniam, quis nostrud
+                 </p>
+             </div>
+             <div class="col-md-4">
+                 <p class="numbers">02</p>
+                 <h4 class="color">PROJECT CREATION</h4>
+                 <div class="border color"></div>
+                 <p class="description">
+                     Lorem ipsum dolor sit amet consectetur
+                     adipisicing elit,set do eiusmod tempor
+                     incididunt ut labore et dolore magna aliqua. Ut
+                     enim ad minim veniam, quis nostrud
+                 </p>
+             </div>
+             <div class="col-md-4">
+                 <p class="numbers">03</p>
+                 <h4 class="color">CONTINUING SUPPORT</h4>
+                 <div class="border color"></div>
+                 <p class="description">
+                     Lorem ipsum dolor sit amet consectetur
+                     adipisicing elit,set do eiusmod tempor
+                     incididunt ut labore et dolore magna aliqua. Ut
+                     enim ad minim veniam, quis nostrud
+                 </p>
+             </div>
+         </div>
+     </div>
+ </section>
+
+ </body>
+ </html>
